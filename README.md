@@ -13,9 +13,6 @@ This project demonstrates core Laravel fundamentals, including **installation**,
 </div>
 
 ---
-Here is a clean, "copy-paste ready" version for your `README.md`. I’ve kept it concise so your users don't have to hunt for the commands.
-
----
 
 ## 🚀 Getting Started
 
