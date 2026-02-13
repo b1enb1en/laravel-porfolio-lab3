@@ -13,23 +13,83 @@ This project demonstrates core Laravel fundamentals, including **installation**,
 </div>
 
 ---
-## 🛠️ How to Run the Project
+Here is a clean, "copy-paste ready" version for your `README.md`. I’ve kept it concise so your users don't have to hunt for the commands.
 
-Follow these simple steps to get the application running on your local machine using **VS Code**:
+---
 
-### 1. Preparation
-Ensure you have **PHP** and **Composer** installed. Open the project folder in VS Code and open the terminal (``Ctrl + ` ``).
+## 🚀 Getting Started
+
+Follow these steps to get your local development environment up and running.
+
+### 1. Clone the repository
+
+```bash
+git clone https:https://github.com/b1enb1en/laravel-porfolio-lab3.git
+cd laravel-portfolio-lab3.git
+
+```
 
 ### 2. Install Dependencies
-If this is your first time running the project, run:
 
-    composer install
+```bash
+# Install PHP dependencies
+composer install
 
-### 3. Start the ServerRun the following command to launch the local development server:
-    php artisan serve
+# Install Frontend dependencies
+npm install
 
-4. Access the ApplicationOnce the server is running, click the link provided in your terminal (usually http://127.0.0.1:8000) or copy-paste the links below into your browser.
-   📂 Navigation LinksPageURL Path
-   - 🏠 Homehttp://127.0.0.1:8000/home
-   - 👤 Abouthttp://127.0.0.1:8000/about
-   - 🎯 Goalshttp://127.0.0.1:8000/goals
+```
+
+### 3. Environment Setup
+
+```bash
+# Create your .env file
+cp .env.example .env
+
+# Generate application key
+php artisan key:generate
+
+```
+
+### 4. Database Configuration
+
+1. Create a new database on your local machine (MySQL/PostgreSQL).
+2. Open the `.env` file and update the `DB_` credentials:
+```env
+DB_DATABASE=your_database_name
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+
+```
+
+3. Run migrations and seeders:
+```bash
+php artisan migrate --seed
+
+```
+
+### 5. Launch the Application
+
+You will need two terminal tabs running:
+
+**Tab 1: Backend Server**
+
+```bash
+php artisan serve
+
+```
+
+**Tab 2: Frontend Assets (Vite)**
+
+```bash
+npm run dev
+
+```
+
+Your application will be available at: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
+Or copy-paste the links below into your browser.
+    📂 Navigation LinksPageURL Path
+    - 🏠 Homehttp://127.0.0.1:8000/home
+    - 👤 Abouthttp://127.0.0.1:8000/about
+    - 🎯 Goalshttp://127.0.0.1:8000/goals
+---
