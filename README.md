@@ -17,14 +17,21 @@ This project demonstrates core Laravel fundamentals, including **installation**,
 ## 🛠️ How to Run the Project
 
 Follow these simple steps to get the application running on your local machine using **VS Code**:
+### 1. Preparation
+Ensure you have **PHP** and **Composer** installed. Open the project folder in VS Code and open the terminal (``Ctrl + ` ``).
 
-### 1. Start the Server
+### 2. Install Dependencies
+If this is your first time running the project, run:
+```powershell
+composer install
+
+### 3. Start the Server
 Run the following command to launch the local development server:
 " php artisan serve "
 
-### 2. Access the Pages
+### 4. Access the Pages
 Once the server is running, click the link provided in your terminal (usually http://127.0.0.1:8000) or copy-paste the links below into your browser.
 
-🏠 Home	http://127.0.0.1:8000/home
+🏠 Home	    http://127.0.0.1:8000/home
 👤 About	http://127.0.0.1:8000/about
 🎯 Goals	http://127.0.0.1:8000/goals
