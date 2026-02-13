@@ -86,7 +86,7 @@ npm run dev
 
 ```
 
-Your application will be available at: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
+### Your application will be available at: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 Or copy-paste the links below into your browser.
     📂 Navigation LinksPageURL Path
     - 🏠 Homehttp://127.0.0.1:8000/home
