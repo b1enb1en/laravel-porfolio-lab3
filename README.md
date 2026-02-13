@@ -90,9 +90,7 @@ npm run dev
 **Or copy-paste the links below into your browser:
 ```bash
     📂 Navigation LinksPageURL Path
-    - 🏠 Home  **http://127.0.0.1:8000/home**
-    - 👤 About  **http://127.0.0.1:8000/about**
-    - 🎯 Goals  **http://127.0.0.1:8000/goals**
-```
-
+    - 🏠 Home  http://127.0.0.1:8000/home
+    - 👤 About  http://127.0.0.1:8000/about
+    - 🎯 Goals  http://127.0.0.1:8000/goals
 ---
