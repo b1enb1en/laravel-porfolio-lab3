@@ -92,7 +92,7 @@ npm run dev
     📂 Navigation LinksPageURL Path
     - 🏠 Homehttp://127.0.0.1:8000/home
     - 👤 Abouthttp://127.0.0.1:8000/about
-    - 🎯 Goalshttp://127.0.0.1:8000/goals**
+    - 🎯 Goalshttp://127.0.0.1:8000/goals
 ```
 
 ---
